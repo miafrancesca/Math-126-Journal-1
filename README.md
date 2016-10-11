@@ -1,3 +1,3 @@
 # uw
-<p>Maria Mueller, 1633099</p>
+<p>Maria Mueller, CSE '20</p>
 <p>Projects at UW</p>
