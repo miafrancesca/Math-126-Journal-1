@@ -1,7 +1,8 @@
 <h2>Reflections on Point, Vector and Calculator Class</h2>
 <h4>for Math 126 journal entry #1, 10/10/2016</h4>
 
-<p>This was suprisingly quick code to write. 
-Challenges arose from finding efficient ways to execute calculations, and to create a product that could actually be useful to a user.
-I knew I would need a Vector class, and a client class to handle input/output to the user, but midway through I realized that
-creating a Point class was also useful. </p>
+<p>This was suprisingly quick code to write. Challenges arose from finding efficient ways to execute calculations, and to create a product that could actually be useful to a user. I knew I would need a Vector class, and a client class to handle input/output to the user, but midway through I realized that creating a Point class was also useful. The code was tedious to write in places, due to the repetitive nature of the formulas used in the calculations for dot products, magnitidue, cross products, etc. Much of the effort, following entering the formulas in the Vector class methods, was spent fixing the spacing and wording in the Calculator class, so that the (crude) user interface created was as clean and understandable as possible. Appropriate line breaks and tabs are important! </p>
+
+<p>Regarding the connection to mathematics, I found this code is helpful (for some WebAssign problems), however despite best efforts to create useful code, it is not ideal for solving certain problems involving vectors, when, for instance, you are given variables other than the ones my code is set up to accept. Working backwards to find a magnitude when given a dot product, for instance, is beyond the scope of this program. Computers, or course, are capable of performing such functions, but from simple output of a java text box, I am unsure how to create such functionality in an efficient manner. </p>
+
+<p>It would be possible, and useful, to create a visual user interface with multiple text boxes for (for instance) vector components, magnitudes, and dot products, where the user could input specific variables, and then the program could compute the missing values. Problems could arise if the user entered  </p>
